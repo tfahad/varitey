@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Handjet:wght@100;600&family=IBM+Plex+Sans&family=Lato:wght@100&family=Ubuntu&display=swap');
+
+.lnav_main{
+    background-color: #141A1F;
+}
+
+.lnavbar{
+    background-color: aqua;
+}
+
+.lmenu{
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+  }
+
+.llogo{
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+.lmodal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #141A1F;
+    z-index: 1000;
+    width: 400px;
+    height: 250px;
+    color: #B0B8C4;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    font-size: larger;
+    font-weight: 500;
+  }
+  
+  .lmodal_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px;
+    width: 90%;
+  }
+  
+
+  .navSearch{
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 0 10px;
+    outline: none;
+    background-color: #141A1F;
+    font-size: medium;
+    font-family: 'IBM Plex Sans', sans-serif;
+   
+  }
+  
+  .navSearch:hover{
+     outline: none;
+  }
+
+  .userdiv{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+  .login-btn{
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 5px;
+    height: 30px;
+    background-color: #101418B3;
+    border: 0px;
+    border-radius: 10px;
+    width: 80px;
+    outline: thin solid grey;
+    color: #B0B8C4;
+    cursor: pointer;
+  }
+  
+  .login-btn:hover{
+    outline: thin solid #3b83f6c0;
+    color: #3B82F6;
+  }
+
+  .error-message{
+    color: red;
+    font-size: 14px;
+  }
+
+
+  /* ==============dashpage css======================= */
+  /* ================================================ */
+  .box{
+    background-color: #141A1F;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+   
+   color: #B0B8C4;
+   font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+.left-side-bar{
+    /* background-color: #141A1F; */
+    width: 25%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
+
+
+
+
+/* ==============left-card================== */
+/* ======================================== */
+
+.left-card{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: sticky;
+  height: 100vh;
+  top: 0;
+}
+
+
+.left-card-sub{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 400px;
+  width: 100%;
+}
+
+.adminlogo{
+  margin-top: 10px;
+}
+
+.left-menu{
+  font-size: 15px;
+  font-weight: bolder;
+  padding: 5px;
+  height: 30px;
+  background-color: #101418B3;
+  border: 0px;
+  width: 90%;
+  outline: thin solid grey;
+  color: #B0B8C4;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.left-menu:hover{
+  outline: thin solid #3b83f6c0;
+  color: #3B82F6;
+}
+
+.menu-link{
+  text-decoration: none;
+  color: #B0B8C4;
+}
+
+
+
+
+/* =================middle-card=================== */
+/* ============================================== */
+
+
+.middle-cards{
+  /* background-color: #141A1F; */
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.middle-card{
+  width:560px;
+  height: 100%;
+  display: flex;
+  /* align-items: center;
+  justify-content: space-evenly; */
+  flex-direction: column;
+  outline: thin solid grey;
+  border-radius: 25px;
+  margin: 30px;
+  padding: 10px;
+}
+
+.middle-card:hover{
+  outline: thin solid #3b83f6c0;
+}
+
+.middle-card-1{
+ height: 25%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.middle-card-2{
+  width: 100%;
+  height: 75%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card2-1{
+  height: 100%;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.card2-2{
+  height: 100%;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.card2-3{
+  height: 100%;
+  width: 33%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card2-3-txt{
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+
+/* ==============right-card============= */
+/* ==================================== */
+
+.right-side-bar{
+  /* background-color: #141A1F; */
+  width: 25%;
+ 
+}
+
+
+.right-cards{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  position: sticky;
+  height: 100vh;
+  top: 0;
+}
+
+.right-card-sub{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 520px;
+}
+
+.right-card{
+  width: 90%;
+  display: flex;
+  height: 100px;
+  outline: thin solid grey;
+  border-radius: 25px;
+}
+
+.right-card:hover{
+  outline: thin solid #3b83f6c0;
+}
+
+
+.right-card-txt{
+ width: 65%;
+ display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.right-card-img{
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+
+.dash-txt{
+  color: #3B82F6;
+}
+
+.card-txt{
+  text-align: center;
+  width: 100%;
+  font-size: large;
+  font-weight: bolder;
+  color: #3b83f6d4;
+}
+
+.StatusButton{
+  font-size: 15px;
+  font-weight: bolder;
+  padding: 5px;
+  height: 30px;
+  background-color: #101418B3;
+  border: 0px;
+  width: 50%;
+  outline: thin solid grey;
+  color: #B0B8C4;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+.StatusButton:hover{
+  outline: thin solid #3b83f6c0;
+  color: #3B82F6;
+}
+
+/* .menu-logout{
+  outline: none;
+  background-color: #141A1F;
+  color: #B0B8C4;
+  font-family: 'IBM Plex Sans', sans-serif;
+  cursor: pointer;
+  border: 0px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: bolder;
+  padding: 5px;
+  height: 30px;
+
+} */
+
+
+
+.left-menul{
+  font-size: 15px;
+  font-weight: bolder;
+  padding: 5px;
+  height: 30px;
+  background-color: #101418B3;
+  border: 0px;
+  width: 285px;
+  outline: thin solid grey;
+  color: #B0B8C4;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.left-menul:hover{
+  outline: thin solid #3b83f6c0;
+  color: #3B82F6;
+}
+
+.done1-btn{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 65%;
+  margin-left: 30px;
+  margin-top: 5px;
+  color: yellowgreen;
+}
+
+.done2-btn{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 55%;
+  margin-left: 30px;
+  margin-top: 5px;
+  color: tomato;
+}
+
+.ptag{
+  margin-top: 30px;
+}

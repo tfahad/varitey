@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Handjet:wght@100;600&family=IBM+Plex+Sans&family=Lato:wght@100&family=Ubuntu&display=swap');
+
+   /* ========================================= */
+   /* ===========cart========================= */
+ 
+   /* *{
+
+   } */
+
+   .cart{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #141A1F;
+    padding-top: 50px;
+    
+   }
+
+   
+
+
+   .maincart{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+   }
+  
+
+   .cartsub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #141A1F;
+    width: 50%;
+   }
+
+   .coupon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 50%;
+    height: 450px;
+    position: sticky;
+    top: 80px; /* Set the desired offset from the top */
+  }
+  
+  .coupon_card {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    height: 550px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+    outline: thin solid grey;
+    border-radius: 10px;
+    margin-top: 80px;
+    padding-bottom: 20px;
+   padding-top: 20px;
+  }
+  
+
+
+   .coupon_card:hover{
+    outline: thin solid #3b83f6c0;
+
+  }
+   
+
+
+  
+
+
+
+   
+   .coupon_cardsub{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 30%;
+    width: 70%;
+   }
+
+
+   .coupon-in{
+    width: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    height: 20px;
+    background-color: #101418B3;
+    border: 0px;
+    width: 200px;
+    outline: thin solid grey;
+    color: #B0B8C4;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+   }
+  
+
+  .coupon-in:hover{
+    outline: thin solid #3b83f6c0;
+
+  }
+
+
+   .coupon_txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   }
+
+
+  
+  
+  .cartItemssub {
+    width:450px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    outline: thin solid grey;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 10px;
+
+  }
+  
+  .cartItemssub:hover{
+    outline: thin solid #3b83f6c0;
+  }
+
+
+  .cartItem-img{
+    border-radius: 5px;
+    height: 140px;
+    width: 200px;
+  }
+
+
+
+  .checkout{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 150px;
+  }
+  
+  .cartItems img {
+    width: 100px;
+    
+  }
+  
+   .cartdesc {
+    width: 50%;
+    height: 90%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  .countHandler{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   width: 70%;
+  }
+  
+  .handler-in {
+    width: 40px;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 5px;
+    height: 20px;
+    background-color: #101418B3;
+    border: 0px;
+    width: 40px;
+    outline: thin solid grey;
+    color: #B0B8C4;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .handler-in:hover{
+    outline: thin solid #3b83f6c0;
+
+  }
+
+
+  .handler-btn{
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 5px;
+    height: 30px;
+    background-color: #101418B3;
+    border: 0px;
+    width: 40px;
+    outline: thin solid grey;
+    color: #B0B8C4;
+    cursor: pointer;
+    border-radius: 5px;
+
+  }
+  
+  .handler-btn:hover{
+    outline: thin solid #3b83f6c0;
+    color: #3B82F6;
+  }
+
+
+  
+  .handler-btn2{
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 5px;
+    height: 30px;
+    background-color: #101418B3;
+    border: 0px;
+    width: 80px;
+    outline: thin solid grey;
+    color: #B0B8C4;
+    cursor: pointer;
+    border-radius: 5px;
+
+  }
+  
+  .handler-btn2:hover{
+    outline: thin solid #3b83f6c0;
+    color: #3B82F6;
+  }
+  
+  
+  
+  
+
+  .emptycart{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #141A1F;
+    height: 100vh;
+    padding-top: 0px;
+    width: 100%;
+  }
+
+
+  /* .fb-span-blue-txt{
+    color: #3B82F6;
+  } */
+
+
+  .shop-btn{
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 5px;
+    height: 30px;
+    background-color: #101418B3;
+    border: 0px;
+    border-radius: 10px;
+    width: 180px;
+    outline: thin solid grey;
+    color: #B0B8C4;
+    cursor: pointer;
+  }
+  
+  .shop-btn:hover{
+    outline: thin solid #3b83f6c0;
+    color: #3B82F6;
+  }
+
+  .hrdiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cart-hr{
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+
+
+
+
+
+  /* ===========Details================ */
+  /*==================================== */
+  .details{
+    height: 250px;
+    width: 58%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+  }
+
+
+  .details-sub{
+width: 100%;
+display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+
+  .details-in{
+    width: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    height: 20px;
+    background-color: #101418B3;
+    border: 0px;
+    width: 200px;
+    outline: thin solid grey;
+    color: #B0B8C4;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+   }
+  
+
+  .details-in:hover{
+    outline: thin solid #3b83f6c0;
+
+  }
+
+  .details-note{
+    text-align: center;
+    color: #B0B8C4;
+    width: 700px;
+    font-size: 14px;
+  }
+
+  .fb-span-1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+  }
+
+
+
+
+  /* ============moda1=============== */
+  /* =============================== */
+  .overlay1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.76);
+    z-index: 1000;
+
+  }
+
+  .modal1{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #141A1F;
+    z-index: 1000;
+    width: 700px;
+    height: 100vh;
+    color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+  }
+
+  .modalsub{
+    width: 600px;
+    height: 90vh;
+  }
+  
+  .modal_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .tablediv{
+    height: 200px;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  table{
+
+    color: #141A1F;
+    width: 80%;
+    padding: 100px;
+    border-collapse: collapse;
+  
+  }
+
+  thead{
+    color: #141A1F;
+    background-color: #3B82F6;
+    height: 30px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  td{
+    text-align: center;
+  }
+
+  table tr:nth-child(odd) {
+    background-color: #3B82F6;
+    height: 10px;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #B0B8C4;
+    height: 10px;
+  }
+
+  .bill-hr{
+    background-color: #3b83f6c0;
+    margin-bottom: 10px;
+  }
+
+
+  .bill_head{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bill_spanhead{
+    font-size: 16px;
+    color: #B0B8C4;
+    font-weight: bold;
+    width: 100%;
+  }
+  
+  .bill_spanbody{
+    font-size: 16px;
+    color: hsl(216, 14%, 73%);
+    width: 100%;
+  }
+

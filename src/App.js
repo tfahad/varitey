@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "./MediaQuery.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./Components/Navbar/Layout";
+import Product from "./Components/Product/Product";
+import Home from "./Components/Home/Home";
+import Kitchen from "./Components/Product/Kitchen/Kitchen";
+import Cart from "./Components/Cart/Cart";
+import { ShopContextProvider } from "./Components/Context/ShopContext";
+import Dashpage from "./Components/Dashboard/Dashpage";
+export const udetails = ['admin', '@MAINadmin123'];
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ShopContextProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="/Product" element={<Product />} />
+            <Route path="/Kitchen" element={<Kitchen />} />
+            <Route path="/Cart" element={<Cart />} />
+            </Route>
+            <Route path="/Dashpage" element={<Dashpage/>}/>
+
+        </Routes>
+      </BrowserRouter>
+    </ShopContextProvider>
   );
 }
 

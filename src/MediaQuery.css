@@ -1,0 +1,138 @@
+@media screen and (max-width: 500px) {
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Handjet:wght@100;600&family=IBM+Plex+Sans&family=Lato:wght@100&family=Ubuntu&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+*::-webkit-scrollbar{
+  display: none;
+}
+
+.navbar{
+  background-color: #101418B3;   
+  height: 60px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+}
+
+.logo{
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu{
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+}
+
+.left-menu{
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.right-menu{
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cartlogo{
+  margin-right: 40px;
+
+}
+
+
+
+.cartlen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  border-radius: 5px;
+  color: #3B82F6;
+  font-weight: bolder;
+}
+
+.menu-span{
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.menu-span:hover{
+  color: #3B82F6;
+}
+
+
+
+.r-m-btn{
+
+  display: none;
+}
+
+.r-m-btn:hover{
+  outline: thin solid #3b83f6c0;
+}
+
+.sub-btn{
+  background-color: #101418cf;
+  padding: 5px;
+  color: #B0B8C4;
+  border-radius: 5px;
+}
+
+.link{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.link-ex{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.navSearch{
+  width: 145px;
+  height: 35px;
+  border-radius: 5px;
+  border: 0px;
+  padding: 0 10px;
+  outline: none;
+  background-color: rgba(224, 224, 224, 0.473);
+  font-size: medium;
+}
+
+.navSearch:hover{
+   outline: thin solid grey;
+}
+
+.navSearch::placeholder{
+  color: rgba(169, 166, 166, 0.756);
+}
+
+
+
+
+
+}
